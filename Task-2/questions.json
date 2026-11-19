@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What effect does safety tuning with RLHF have on the safety reward model scores?",
+    "evidence": "the distribution of safety RM scores on the safety set shifts to higher reward scores after safety tuning with RLHF"
+  },
+  {
+    "q": "What are the per-GPU power consumption limits for the RSC and the production clusters?",
+    "evidence": "per-GPU power consumption cap - RSC uses 400W while our production cluster uses 350W"
+  },
+  {
+    "q": "Which pizza style does the speaker praise as the best, describing it as deep-dish, thick, and cheesy?",
+    "evidence": "I think Chicago pizza is the best. It's deep dish, it's thick, it's cheesy, and it's just all around delicious."
+  },
+  {
+    "q": "How many single-turn and multi-turn prompts were allocated to ChatGPT in the human evaluation?",
+    "evidence": "Comparison Model Number of single turn prompts Number of multi-turn prompts ChatGPT 1917 2256"
+  },
+  {
+    "q": "What zero-shot exact-match result does MPT 7B achieve on the SQuAD benchmark?",
+    "evidence": "SQUAD (EM) QUAC (f1) Model Size 0-shot 1-shot 4-shot 5-shot 0-shot 1-shot MPT 7B 59.5"
+  },
+  {
+    "q": "Which model is reported to have the lowest overall violation percentage across model sizes?",
+    "evidence": "Llama 2-Chat has comparable or lower overall violation percentage across model sizes, while ChatGPT and Falcon"
+  },
+  {
+    "q": "How does Llama 2 compare to other models regarding toxicity metrics according to the passage?",
+    "evidence": "Llama 2 does not outperform other models on toxicity metrics, and we speculate that this may be because"
+  },
+  {
+    "q": "What interval do the observed Gwet's AC2 inter-rater reliability scores fall within for the helpfulness Likert task?",
+    "evidence": "Gwet's AC2 score varies between 0.37 and 0.55 depending on the specific model comparison"
+  },
+  {
+    "q": "Which closed-book open-domain QA model achieves the highest performance and how many trainable parameters does it contain?",
+    "evidence": "The best performing \"closed-book\" (parametric only) open-domain QA model is T5-11B with 11 Billion trainable parameters."
+  },
+  {
+    "q": "How does Llama 2 70B's performance on MMLU and GSM8K compare to GPT-3.5, and what is its gap on coding benchmarks?",
+    "evidence": "Llama 2 70B is close to GPT-3.5 (OpenAI, 2023) on MMLU and GSM8K, but there is a significant gap"
+  },
+  {
+    "q": "By approximately how many points does Llama 2 70B surpass Llama 1 65B on the MMLU and BBH benchmarks?",
+    "evidence": "Llama 2 70B improves the results on MMLU and BBH by ≈5 and ≈8 points, respectively, compared to"
+  },
+  {
+    "q": "Which pronoun is reported to appear more often in the training documents, He or She?",
+    "evidence": "He pronouns are generally overrepresented in documents compared to She pronouns, echoing similar frequency differences observed"
+  },
+  {
+    "q": "What pre-training objective does BERT use to learn deep bidirectional representations?",
+    "evidence": "\"masked language model\" (MLM) pre-training objective, inspired by the Cloze task (Taylor, 1953)"
+  },
+  {
+    "q": "What is the main advantage of BERT's bidirectional pre-training compared to left-to-right models?",
+    "evidence": "BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context"
+  },
+  {
+    "q": "What optimizer and learning rate schedule are used during BERT pre-training?",
+    "evidence": "L2 weight decay of 0.01, learning rate warmup over the first 10,000 steps, and linear decay of the learning rate"
+  }
+]

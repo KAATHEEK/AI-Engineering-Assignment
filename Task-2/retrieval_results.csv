@@ -1,0 +1,9 @@
+chunk_size,method,R@1,R@3,R@5,R@budget,k_budget,MRR@10
+small_100w,dense,53.3,80.0,80.0,93.3,15,66.7
+small_100w,bm25,53.3,80.0,86.7,93.3,15,67.8
+small_100w,hybrid_rrf,60.0,80.0,86.7,93.3,15,72.2
+small_100w,hybrid+rerank,53.3,66.7,73.3,93.3,15,62.6
+large_300w,dense,66.7,80.0,86.7,86.7,5,74.6
+large_300w,bm25,73.3,86.7,86.7,86.7,5,80.0
+large_300w,hybrid_rrf,66.7,86.7,93.3,93.3,5,78.0
+large_300w,hybrid+rerank,46.7,73.3,93.3,93.3,5,64.3
